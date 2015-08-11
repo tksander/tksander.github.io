@@ -1,0 +1,22 @@
+# Site settings
+title: Tomcat
+email: tkepasander@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Computer science and software engineering musings, useful resources, 
+  and just general, all-around good stuff I've either found or produced 
+  along the way. 
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: tommysander1
+github_username:  tksander
+
+# Build settings
+markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
